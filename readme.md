@@ -42,8 +42,11 @@ CRISP-DM methodology is used for analysis. The business value is clearly underst
 From the result after hypertuning on the churn prediction dataset, we can infer the following:
 
 **Random Forest**- Performs well with highest Recall and F1-Score. This shows that this is the best performing model with high ROC AUC.
+
 **XGBoost** - The second best model with second highest Recall and f1_score. The ROC AUC is the best for this model
+
 **Logistic Regression** - This is the third best model with high Recall but lower Precision that has brought down the F1-score as well. This model has a moderate ROC AUC as well
+
 **Gradient Boosting** - This is the least performance model with lowest Recall, F1-Score
 
 # Explainability
@@ -57,4 +60,5 @@ From the result after hypertuning on the churn prediction dataset, we can infer 
 ![alt text](local_explainability.png)
 
 This graph can be used to understand how each prediction is made by the model. this helps to explain to business on how the decision is made
+
 
